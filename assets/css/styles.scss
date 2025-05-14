@@ -1,0 +1,58 @@
+html,
+body {
+    margin: 0px auto;
+    max-width: 1000px;
+    color: rgb(104, 206, 57); /* Mantengo el color del texto blanco para contrastar */
+    background: #2bad8e; /* Un verde oscuro que se asemeja al de las mesas de casino */
+}
+
+span {
+    color: red; /* Puedes cambiar esto si deseas otros colores para los spans */
+}
+
+.titulo {
+    background: #c1a72c; /* Un color dorado para el título que recuerda a los detalles de las mesas de casino */
+    max-width: 1000px;
+    color: rgb(235, 38, 38);
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+    border-radius: 10px; /* Para darle un borde redondeado si quieres */
+}
+
+.carta {
+    max-width: 1000px;
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#jugador-cartas,
+#computadora-cartas {
+    height: 240px;
+}
+
+/* Agregando algunos detalles visuales extras */
+.card {
+    background-color: #2e7031; /* Fondo verde oscuro en las cartas */
+    border: 2px solid #ffffff; /* Un borde blanco para las cartas */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Un color adicional para botones o acciones */
+button {
+    background-color: #c1a72c; /* El mismo color dorado para los botones */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #a38e1b; /* Un color dorado más oscuro cuando el botón se pasa el mouse por encima */
+}
